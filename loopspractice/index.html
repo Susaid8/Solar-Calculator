@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title></title>
+        <link href="/loopspractice/styles.css" rel="stylesheet" type="text/css">
+
+    </head>
+
+    <body>
+        <h1>Practice</h1>
+
+        <h2> What is your home state? </h2>
+        <select id="state">
+            <option value="WY">Wyoming</option>
+            <option value="UT">Utah</option>
+            <option value="ID">Idaho</option>
+            <option value="MT">Montana</option>
+        </select>
+
+        <h2> What is your home style? </h2>
+        <select id="home">
+            <option value="single">Single</option>
+            <option value="apartment">Apartment</option>
+            <option value="multi">Multi-Family</option>
+            <option value="mobile">Mobile Home</option>
+        </select><br>
+
+        <h2> Lighting </h2>
+        <label><input type="checkbox" name="bulb" value="Incandescent"> Incandescent </label><br>
+        <label><input type="checkbox" name="bulb" value="LED"> Light Emmitting Diod </label><br>
+        <label><input type="checkbox" name="bulb" value="CFL"> Compact Fluorescent Light </label><br>
+        <br>
+        
+        <br>
+        <button onclick="evaluatePage()">Run Script</button>
+
+        <div id="output"></div>
+
+    </body>
+    <script type="text/javascript" src="/loopspractice/main.js"></script>
+</html>
